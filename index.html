@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmshape</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="media/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <a class="logo" href="index.html">
+                <img src="media/logo.svg" width="24px" height="24px" alt="Logo">Filmshape
+            </a>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="navLinks" id="navLinks">
+                <li><a href="pagina's/hoewerkthet.html">Hoe Werkt Het</a></li>
+                <li><a href="pagina's/portfolio.html">Portfolio</a></li>
+                <li><a href="pagina's/overons.html">Over Ons</a></li>
+                <li><a href="pagina's/contact.html"><button class="startProjectBtn contactCTA">Start Project</button></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1 class="heroTitle">Niet Zomaar MEDIA,</h1>
+        <h1 class="heroTitle1">Maar Media Die JOU Laat Zien.</h1>
+        <p>Filmshape Producties zorgt ervoor dat bedrijven en evenementen hun bedrijf
+            zichtbaar maken. Dit met een vertrouwde partner. Onze Snelle, Simpele en
+            Sterke werkwijze zorgt voor eindresultaten die efficiënt zijn.</p>
+        <a href="pagina's/contact.html"><button class="naarProject contactCTA">Maak Afspraak</button></a>
+        <video autoplay muted loop class="heroVideo" src="video's/hero-video.mp4"></video><!-- intro video, bestand in map "video's" plaatsen, bij src alleen de tekst "hero-video.mp4" vervangen door bestandsnaam -->
+    </section>
+
+    <section class="sectionPortfolio">
+        <h2>Filmshape Producties zorgt voor hoge kwaliteit met sterke media.</h2>
+        <div class="image-container">
+            <img class="afbeeldingPortfolio" src="media/portfolio-ss.png" alt="Portfolio"><!-- portfolio screenshot, bestand in map "media" plaatsen, bij src alleen de tekst "portfolio-ss.png" vervangen door bestandsnaam -->
+            <a class="portfolioButton" href="pagina's/portfolio.html">Bekijk Portfolio
+                <img class="playButton" src="media/play-button.svg" alt="Bekijk portfolio"
+                    style="width: 16px; height: 16px;"></a>
+        </div>
+        <div class="paragraphPortfolio">Filmshape Producties staat garant voor hoogwaardige mediaproducties die inhoud
+            en vorm perfect combineren. Met een scherp oog voor detail en een passie voor storytelling, creëren we
+            visuele content die raakt, overtuigt en blijft hangen. Of het nu gaat om bedrijfsfilms, documentaires of
+            social media content – wij zorgen voor een professionele aanpak en een krachtig eindresultaat dat impact
+            maakt.</div>
+    </section>
+
+    <section class="sectionPakketten">
+        <div class="pakketContainer">
+            <div class="flexibleContent">
+                <div>
+                    <h3>Pakketten voor bedrijven</h3>
+                    <div class="pakket">
+                        <h4>Business Starter Pakket</h4>
+                        <ul class="pakketList">
+                            <li>€150,-</li>
+                            <li>30 seconden bedrijfs introductievideo</li>
+                            <li>>20 allround foto’s</li>
+                            <li>5 Bedrijfsfoto’s (team en locatie)</li>
+                            <li>Videoformaat in 16:9</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="pakket">
+                        <h4>Business Growth Pakket</h4>
+                        <ul class="pakketList">
+                            <li>€300,-</li>
+                            <li>60 seconden bedrijfs- of promotievideo</li>
+                            <li>10 Bedrijfsfoto’s (team, locatie, sfeer, producten/diensten)</li>
+                            <li>3 korte social media video’s (bijv. behind the scenes, quote-video, klanttestimonials)
+                            </li>
+                            <li>Basisbewerking van foto’s en video</li>
+                            <li>Videoformaten in 9:16 en 16:9</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="pakket">
+                        <h4>Premium Presence Pakket</h4>
+                        <ul class="pakketList">
+                            <li>€500,-</li>
+                            <li>90 seconden bedrijfsfilm of promotievideo (incl. dronebeelden)</li>
+                            <li>20 Bedrijfsfoto’s (inclusief dronefoto’s, team, sfeer, detailshots)</li>
+                            <li>6 korte social media clips</li>
+                            <li>15 seconden teaser/snippet voor snelle promotie</li>
+                            <li>Sterke nabewerking van foto’s en video</li>
+                            <li>Videoformaten: 9:16, 16:9 en vierkant (1:1)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hoeWerktHetButton">
+                    <a class="pakketButton" href="pagina's/hoewerkthet.html">Hoe Werkt Het</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pakketContainer">
+            <div class="flexibleContent">
+                <div>
+                    <h3>Pakketten voor evenementen</h3>
+                    <div class="pakket">
+                        <h4>Basis Pakket</h4>
+                        <ul class="pakketList">
+                            <li>€200,-</li>
+                            <li>30 seconden video excl. dronebeelden</li>
+                            <li>20 allround foto’s</li>
+                            <li>Basisbewerking van foto’s en video</li>
+                            <li>Videoformaat in 16:9</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="pakket">
+                        <h4>Sky High Pakket</h4>
+                        <ul class="pakketList">
+                            <li>€350,-</li>
+                            <li>30 seconden video incl. dronebeelden</li>
+                            <li>20 allround foto’s</li>
+                            <li>5 Dronefoto’s</li>
+                            <li>Basisbewerking van foto’s en video</li>
+                            <li>Videoformaten in 9:16 en 16:9</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="pakket">
+                        <h4>Volledige Voorbereiding Pakket</h4>
+                        <ul class="pakketList">
+                            <li>€500,-</li>
+                            <li>60 seconden video incl.dronebeelden</li>
+                            <li>15 seconden social media snippet</li>
+                            <li>40 allround foto’s</li>
+                            <li>8 Dronefoto’s</li>
+                            <li>8 korte social media clips (voor de hele maand)</li>
+                            <li>Sterke nabewerking van foto’s en video’s</li>
+                            <li>Videoformaat in 9:16, 16:9 en vierkant (1:1)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hoeWerktHetButton">
+                    <a class="pakketButton" href="pagina's/hoewerkthet.html">Hoe Werkt Het</a>
+                </div>
+            </div>
+    </section>
+
+    <section class="videoCarrousel">
+        <h1>Bekijk onze video's.</h1>
+        <div class="swiper videoSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="imageWrapper">
+                        <img src="media/tumbnail-1.jpg" alt="1"><!-- carrousel afbeelding, bestand in map "media" plaatsen, bij src alleen de tekst "tumbnail-1.jpg" vervangen door bestandsnaam -->
+                        <a href="https://www.youtube.com/watch?v=4jSlA25lH-g" class="overlayText">Bekijk video <i
+                                class="fas fa-arrow-right"></i></a><!-- carrousel youtube link, bij href de url vervangen door de nieuwe url -->
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imageWrapper">
+                        <img src="media/tumbnail-2.jpg" alt="2"><!-- carrousel afbeelding, bestand in map "media" plaatsen, bij src alleen de tekst "tumbnail-2.jpg" vervangen door bestandsnaam -->
+                        <a href="https://www.youtube.com/watch?v=Vq1nxwda4rk" class="overlayText">Bekijk video <i
+                                class="fas fa-arrow-right"></i></a><!-- carrousel youtube link, bij href de url vervangen door de nieuwe url -->
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imageWrapper">
+                        <img src="media/tumbnail-3.jpg" alt="3"><!-- carrousel afbeelding, bestand in map "media" plaatsen, bij src alleen de tekst "tumbnail-3.jpg" vervangen door bestandsnaam -->
+                        <a href="https://www.youtube.com/watch?v=9tAJI9crrDs" class="overlayText">Bekijk video <i
+                                class="fas fa-arrow-right"></i></a><!-- carrousel youtube link, bij href de url vervangen door de nieuwe url -->
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imageWrapper">
+                        <img src="media/tumbnail-4.jpg" alt="4"><!-- carrousel afbeelding, bestand in map "media" plaatsen, bij src alleen de tekst "tumbnail-4.jpg" vervangen door bestandsnaam -->
+                        <a href="https://www.youtube.com/watch?v=yhYVAHb9c5s" class="overlayText">Bekijk video <i
+                                class="fas fa-arrow-right"></i></a><!-- carrousel youtube link, bij href de url vervangen door de nieuwe url -->
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imageWrapper">
+                        <img src="media/tumbnail-5.jpg" alt="5"><!-- carrousel afbeelding, bestand in map "media" plaatsen, bij src alleen de tekst "tumbnail-5.jpg" vervangen door bestandsnaam -->
+                        <a href="https://www.youtube.com/watch?v=hyUfPaKI44M" class="overlayText">Bekijk video <i
+                                class="fas fa-arrow-right"></i></a><!-- carrousel youtube link, bij href de url vervangen door de nieuwe url -->
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imageWrapper">
+                        <img src="media/tumbnail-6.jpg" alt="6"><!-- carrousel afbeelding, bestand in map "media" plaatsen, bij src alleen de tekst "tumbnail-6.jpg" vervangen door bestandsnaam -->
+                        <a href="https://www.youtube.com/watch?v=ptkc1nDu_Z0" class="overlayText">Bekijk video <i
+                                class="fas fa-arrow-right"></i></a><!-- carrousel youtube link, bij href de url vervangen door de nieuwe url -->
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imageWrapper">
+                        <img src="media/tumbnail-7.jpg" alt="7"><!-- carrousel afbeelding, bestand in map "media" plaatsen, bij src alleen de tekst "tumbnail-7.jpg" vervangen door bestandsnaam -->
+                        <a href="https://www.youtube.com/watch?v=BY4P0e0uqYg" class="overlayText">Bekijk video <i
+                                class="fas fa-arrow-right"></i></a><!-- carrousel youtube link, bij href de url vervangen door de nieuwe url -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ctaCarrousel">
+            <a class="carrouselButton" href="pagina's/portfolio.html">Bekijk Portfolio <div>&#10094;</div></a>
+        </div>
+    </section>
+
+    <section class="homepageGrid">
+        <div class="gridPadding">
+            <div class="gridElement">
+                <div class="gridText">
+                    <h2 class="gridTitle">Filmshape Producties<br>
+                        <strong>Jouw moment. Onze visie.</strong>
+                    </h2>
+                    <h2 class="gridDescription">Meerdere professionele sets en jarenlange ervaring, klaar voor jouw
+                        volgende productie.</h2>
+                </div>
+                <div class="gridButton">
+                    <a class="pakketButton" href="pagina's/hoewerkthet.html">Hoe Werkt Het</a>
+                </div>
+            </div>
+            <div class="gridContainer">
+                <div class="gridItem gridItem1"><!-- grid afbeeldingen kun je vervangen in het style.css bestand op regel 731 -->
+                    <h3>Hoge Kwaliteit</h3>
+                    <p>Filmshape Producties levert snel hoogwaardige media met impact. Efficiënt, professioneel en
+                        altijd op tijd.</p>
+                </div>
+                <div class="gridItem gridItem2">
+                    <h3>Laag in Kosten</h3>
+                    <p>Filmshape Producties levert snel en betaalbaar media van hoge kwaliteit. Professioneel, krachtig
+                        en efficiënt - zonder hoge kosten.</p>
+                </div>
+                <div class="gridItem gridItem3">
+                    <h3>Snelle Levering</h3>
+                    <p>Filmshape Producties combineert snelheid met hoge kwaliteit. Wij leveren razendsnel sterke media,
+                        zonder concessies te doen aan professionaliteit of impact.</p>
+                </div>
+                <div class="gridItem gridItem4">
+                    <h3>Professionele Apparatuur</h3>
+                    <p>Filmshape Producties werkt met professionele camera’s, drones en audioapparatuur van
+                        topkwaliteit. Zo garanderen we haarscherpe beelden en perfect geluid.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="carousel">
+            <button class="arrow1 left">&#10094;</button>
+            <div class="review-container">
+                <div class="review active">
+                    <p>“Stefan en Mark maakten video’s, foto’s en dronebeelden tijdens onze evenementen Oldtimerdag de
+                        Westereen en brommerrit De Gehaktbalrit, met als resultaat een geweldige aftermovie en prachtige
+                        foto’s. Deelnemers kregen de mogelijkheid om de gemaakte foto’s te bestellen via hun website.
+                        Het
+                        contact met Mark en Stefan is prettig en ze namen onze wensen mee in hun creaties. We zijn erg
+                        tevreden met Filmshape Producties en hebben ze zelfs meegevraagd voor de volgende evenementen!”
+                    </p>
+                    <span>Oldtimerdag de Westereen</span>
+                    <div>Evenementenorganisatie</div>
+                </div>
+                <div class="review">
+                    <p>“Voor mijn nieuwe webshop heb ik hier productfoto’s laten maken en ben enorm tevreden!
+                        Persoonlijk
+                        contact, goed overleg over de wensen en foto’s van hoge kwaliteit passend bij mijn
+                        verwachtingen, is
+                        waarom ik dit bedrijf echt aanraadt!”
+                    </p>
+                    <span>Lesley Kraak</span>
+                    <div>Ecommerce Reseller</div>
+                </div>
+                <div class="review">
+                    <p>“De kwaliteit van de foto’s en video’s van Filmshape Producties is hoog. Ze streven naar hoge
+                        kwaliteit en mocht je net niet helemaal tevreden zijn helpen ze je graag tot je tevreden bent.”
+                    </p>
+                    <span>Remco ter Veld</span>
+                    <div>FitVeld Personal Coaching</div>
+                </div>
+                <div class="review">
+                    <p>“Deze heren hebben onze Charles Dickens Kerstmarkt in Buitenpost erg mooi uitgelicht door
+                        prachtige
+                        foto’s en video’s te maken. De aftermovie die we kregen was toch wel echt de kers op de taart
+                        van
+                        dit mooie evenement! Bedankt heren.”
+                    </p>
+                    <span>Kerstmarkt Buitenpost</span>
+                    <div>Evenementenorganisatie</div>
+                </div>
+                <div class="review">
+                    <p>“In 2024 heeft Filmshape Producties een geweldige video gemaakt voor www.stichtingfly4u.nl. Mark
+                        en
+                        zijn bevlogen team, bedankt!”</p>
+                    <span>Fly4U - Evenementenorganisatie</span>
+                    <div>Evenementenorganisatie</div>
+                </div>
+            </div>
+            <button class="arrow1 right">&#10095;</button>
+            <div class="dots">
+                <span class="dot active-dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="getStarted">
+        <div class="getStartedContainer">
+            <h2>Start met ons</h2>
+            <h1>Breng jouw verhaal in beeld en groei door.</h1>
+            <p>Meerdere gingen jou voor. Ben jij de volgende?</p>
+            <a href="pagina's/contact.html" class="getStartedButton">Maak afspraak</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="footerSection1">
+                <ul>
+                    <li class="title">Pagina's</li>
+                    <li><a href="pagina's/hoewerkthet.html">Hoe Werkt Het</a></li>
+                    <li><a href="pagina's/portfolio.html">Portfolio</a></li>
+                    <li><a href="pagina's/overons.html">Over Ons</a></li>
+                    <li><a href="pagina's/contact.html">Contact</a></li>
+                </ul>
+                <ul>
+                    <li class="title">Socials</li>
+                    <li><a href="https://www.instagram.com/filmshape_producties/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/people/Filmshape-Producties/61564591919270/"
+                            target="_blank">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/company/filmshape-producties/?originalSubdomain=nl"
+                            target="_blank">LinkedIn</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="title">Voorwaarden</li>
+                    <li><a href="pagina's/voorwaarden.html">Algemene Voorwaarden</a>
+                </ul>
+            </div>
+            <div class="footerSection2">
+                <ul>
+                    <li class="copyright">Copyright © Filmshape Producties 2024</li>
+                    <li><a class="algemeneVoorwaarden" target="_blank"
+                            href="https://www.google.com/maps/place/Filmshape+Producties+-+Mediabedrijf+uit+Friesland/@53.2438829,6.1524349,17z/data=!3m1!4b1!4m6!3m5!1s0xaae305af7d0b9da7:0x705669511934c5c7!8m2!3d53.2438829!4d6.1524349!16s%2Fg%2F11svcf_cg2?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D">Lege
+                            Seis 8, 9285 JD Buitenpost</a></li>
+                </ul>
+            </div>
+            <hr class="horizontalLine">
+            <div class="footerSection3">
+                <ul>
+                    <li> KVK 92939325 | BTW-ID NL866223769B01
+                    </li>
+                    <li>
+                        <div class="logoFooter" href="#"><img src="media/logo.svg" width="20px"
+                                height="20px"></img>Filmshape</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="js/javascript.js"></script>
+
+</html>
